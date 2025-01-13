@@ -1,0 +1,48 @@
+import React from 'react';
+import ExperienceImg from '../assets/quality.png';
+import ClientImg from '../assets/handshake.png';
+import ProjectImg from '../assets/folder.png';
+import Hero1Img from '../assets/meeting jpg.jpg';
+import {motion} from 'framer-motion';
+
+const About = () => {
+  return (
+    <motion.div className='bg-slate-200 py-16 pb-24'
+         initial = {{opacity: 0, y: 50}}
+         whileInView={{opacity: 1, y: 0}}
+         transition={{duration:0.8}}
+         viewport={{once:true, amount:0.2}}>
+        <h2 className='text-3xl font-semibold font-tomorrow text-center pt-7'>The Story So Far</h2>
+        
+        <div className='flex justify-center mt-12 mb-12'>
+        <img src = {Hero1Img} alt = "profile" type = "image/png" className = 'w-80 h-96 rounded-xl transform transition-transform duration-300 hover:scale-105' />
+        </div>
+        
+        <p className='text-center mt-6 px-4 md:px-20 text-xl font-bold font-nunito text-gray-800'>Hello! I'm Jaya Kumar, a passionate graphic designer, video editor, and social media marketer, blending creativity with technology. With a solid foundation in Computer Science, I craft visually striking designs, produce engaging video content, and curate effective social media strategies. Constantly evolving, I strive to push the limits of design, art, and innovation to deliver impactful, high-quality work</p>
+        
+        <div className='grid grid-cols:1 sm:grid-cols-3 lg:grid-cols-3 gap-8 mt-12 px-4 md:px-20'>
+
+            <div className = 'flex flex-col items-center bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform transition-all duration-300 hover:scale-105'>
+                <img src = {ExperienceImg} alt = "Experience" type = "image/png" className = 'w-16 h-16 mb-4'/>
+                <h3 className='text-xl font-semibold font-quantico mb-2'>Experience</h3>
+                <p className='text-center text-gray-700 font-spectral'>2+ years of experience in graphic design, video editing, and social media marketing, creating engaging visuals and impactful content</p>
+            </div>
+
+            <div className = 'flex flex-col items-center bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform transition-all duration-300 hover:scale-105'>
+                <img src = {ClientImg} alt = "Client" type = "image/png" className = 'w-16 h-16 mb-4'/>
+                <h3 className='text-xl font-semibold font-quantico mb-2'>Clients</h3>
+                <p className='text-center text-gray-700 font-spectral'>Over 20+ client projects delivered, transforming ideas into standout designs and content for businesses and personal ventures</p>
+            </div>
+
+            <div className = 'flex flex-col items-center bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform transition-all duration-300 hover:scale-105'>
+                <img src = {ProjectImg} alt = "Project" type = "image/png" className = 'w-16 h-16 mb-4'/>
+                <h3 className='text-xl font-semibold font-quantico mb-2'>Projects</h3>
+                <p className='text-center text-gray-700 font-spectral'>Crafted 100+ standout designs, elevating content with innovative graphic design and video editing</p>
+            </div>
+
+        </div>
+    </motion.div>
+  )
+}
+
+export default About
