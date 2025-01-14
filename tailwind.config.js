@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#191E29",
-        secondary: "#132D46",
-        textprimary: "",
-        textsecondary: "#696E79",
-        white: "#FFFFFF",
+        button_color: '#501F3A',
+        background_primary: '#CCCCCC',
+        text_primary: '#CB2D6F',
+        background_secondary: '#0F292F',
+        text_secondary: '#14A098',
       },
       container: {
         center: true,
@@ -31,6 +31,9 @@ export default {
         noto: ['Noto', 'serif'],
         spectral: ['Spectral', 'serif'],
         quantico: ['Quantico', 'serif'],
+        montserrat: ['montserrat'],
+        poppins: ['Poppins'],
+        anton: ['Anton'],
       },
       fontWeight: {
         thin: '100',

@@ -18,18 +18,18 @@ const Projects = () => {
     {image: Project6, title: 'Project 6', description: '', link: 'https://www.behance.net/gallery/192908435/Pappad-Product-Poster'},
   ]
   return (
-    <motion.div id = "works" className='pb-14 bg-slate-200'
+    <motion.div id = "works" className='pb-20 mt-5 bg-white'
                 initial = {{opacity: 0, y: 50}}
                 whileInView={{opacity: 1, y: 0}}
                 transition={{duration:0.8}}
                 viewport={{once:true, amount:0.2}}>
-      <h2 className='text-3xl font-semibold font-tomorrow text-center pt-14'>Design Chronicles</h2>
+      <h2 className='text-4xl font-bold font-poppins text-button_color text-center pt-10'>Design Chronicles</h2>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 px-4 md:px-20'>
         {projects.map((project, index) => (
           <div 
               key = {index}
-              className='relative flex flex-col items-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-2 duration-500'
+              className='relative flex flex-col items-center bg-pink-200 p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-2 duration-500'
           >
             <div className='relative overflow-hidden rounded-2xl'>
               <img 
@@ -39,9 +39,9 @@ const Projects = () => {
               />
               <div className='absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-500'>
                 <a href = {project.link}
-                className='bg-blue-500 text-white px-4 py-2 rounded-full text-lg font-semibold hover:bg-blue-600 transition-all duration-300'
+                className='bg-pink-300 text-black px-4 py-2 rounded-full text-lg font-semibold hover:bg-button_color hover:text-white transition-all duration-300'
                 >
-                  View
+                  VIEW
                 </a>
                 </div>
             </div>
