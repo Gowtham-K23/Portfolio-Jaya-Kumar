@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className='flex justify-center md:justify-between items-center px-5 md:px-20 lg:px-40 h-full'>
 
         <ul className='list-none'>
-          <li className='text-background_primary font-poppins font-extrabold text-4xl text-center sm:text-3xl'>
+          <li className='text-white font-poppins font-extrabold text-4xl text-center sm:text-3xl'>
             <a href = "#"  className = "hover:text-pink-200 transition ease-out duration-700">JAYA KUMAR</a>
           </li>
         </ul>
