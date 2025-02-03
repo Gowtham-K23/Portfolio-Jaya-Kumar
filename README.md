@@ -18,7 +18,7 @@ Click below to check out the live version of the **Portfolio Website**:
 ## 🔗 Social Media  
 Check out the project on LinkedIn:  
 
-[LinkedIn Post](https://www.linkedin.com/posts/gowtham-k-b40480264_frontenddevelopment-frontenddeveloper-html-activity-7284942187832717314-8iDX?utm_source=share&utm_medium=member_desktop)  
+🎯 [LinkedIn Post](https://www.linkedin.com/posts/gowtham-k-b40480264_frontenddevelopment-frontenddeveloper-html-activity-7284942187832717314-8iDX?utm_source=share&utm_medium=member_desktop)  
 
 ## 🔑 **Key Features**  
 
