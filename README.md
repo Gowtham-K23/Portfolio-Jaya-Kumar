@@ -12,7 +12,13 @@ This is my **first professional project** where I had the privilege of designing
 
 ## 🌍 **Live Demo**  
 Click below to check out the live version of the **Portfolio Website**:  
+
 🎯 [Visit the Portfolio](https://portfolio-jaya-kumar-87yz6rf0y-gowtham-k23s-projects.vercel.app/)  
+
+## 🔗 Social Media  
+Check out the project on LinkedIn:  
+
+[LinkedIn Post](https://www.linkedin.com/posts/gowtham-k-b40480264_frontenddevelopment-frontenddeveloper-html-activity-7284942187832717314-8iDX?utm_source=share&utm_medium=member_desktop)  
 
 ## 🔑 **Key Features**  
 
