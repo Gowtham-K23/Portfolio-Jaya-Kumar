@@ -13,7 +13,7 @@ This is my **first professional project** where I had the privilege of designing
 ## 🌍 **Live Demo**  
 Click below to check out the live version of the **Portfolio Website**:  
 
-🎯 [Visit the Portfolio](https://portfolio-jaya-kumar-87yz6rf0y-gowtham-k23s-projects.vercel.app/)  
+🎯 [Visit the Portfolio](https://portfolio-jaya-kumar.vercel.app/)  
 
 ## 🔗 Social Media  
 Check out the project on LinkedIn:  
