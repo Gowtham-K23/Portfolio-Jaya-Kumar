@@ -31,7 +31,7 @@ The website is crafted to cater to Jayakumar’s professional profile, highlight
 ### 📄 **Hero Section**  
 The hero section introduces Jayakumar with a bold statement about his skills and includes an **easy-to-access resume** download link for potential clients or employers.
 
-### ✨ **His Story**  
+### ✨ **History**  
 A personal section that lets users dive into Jayakumar’s background and career journey.
 
 ### ⚙️ **Services Offered**  
