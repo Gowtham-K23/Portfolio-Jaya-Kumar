@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import HeroImg from '../assets/manoj-preview.png';
-import Resume from '../assets/Resume/JKDigitalResumepresent.pdf';
-import {motion} from 'framer-motion';
+import Resume from '../assets/Resume/JayaKumar Resume.pdf';
 
 const Hero = () => {
 

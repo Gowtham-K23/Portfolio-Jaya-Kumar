@@ -49,6 +49,16 @@ const Projects = () => {
           </div>
         ))}
       </div>
+
+      <div className = 'flex justify-center mt-12'>
+        <a href = "https://drive.google.com/drive/folders/16Y7daxHJot1NoS3flPMAVWpTO1rvhQkc?usp=drive_link"
+           target = '_blank'
+           rel = "noopener noreferrer"
+           className = 'bg-button_color text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-pink-300 hover:text-black transition-all duration-300'
+        >
+          View More Projects
+        </a>
+      </div>
     </motion.div>
   )
 }
