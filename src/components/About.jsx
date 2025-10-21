@@ -1,9 +1,8 @@
-import React from 'react';
-import ExperienceImg from '../assets/quality.png';
-import ClientImg from '../assets/handshake.png';
+import { motion } from 'framer-motion';
 import ProjectImg from '../assets/folder.png';
+import ClientImg from '../assets/handshake.png';
 import Hero1Img from '../assets/meeting jpg.jpg';
-import {motion} from 'framer-motion';
+import ExperienceImg from '../assets/quality.png';
 
 const About = () => {
   return (
@@ -18,7 +17,7 @@ const About = () => {
         <img src = {Hero1Img} alt = "profile" type = "image/png" className = 'w-80 h-96 rounded-xl transform transition-transform duration-300 hover:scale-105' />
         </div>
         
-        <p className='text-center mt-6 px-4 md:px-20 text-xl font-bold font-montserrat text-black'>Hello! I'm Jaya Kumar, a passionate graphic designer, video editor, and social media marketer. I craft visually striking designs, produce engaging video content, and curate effective social media strategies. Constantly evolving, I strive to push the limits of design, art, and innovation to deliver impactful, high-quality work. I am a professional graphic designer specializing in social media, concept-oriented, and product posts. With expertise in Adobe Photoshop, Illustrator, and Premiere Pro, I deliver high-quality, visually impactful designs tailored to client needs.</p>
+        <p className='text-center mt-6 px-4 md:px-20 text-xl font-bold font-montserrat text-black'>Design isn't just my skill, it's my language. With 2 years of experience shaping social media creatives, A4 layouts, and pamphlets, I now push the edge with AI-powered concept design — transforming ideas into scroll-stopping visuals. My work bridges classic design principles with futuristic innovation, crafting bold, attention-grabbing stories for brands ready to stand out.</p>
         
         <div className='grid grid-cols:1 sm:grid-cols-3 lg:grid-cols-3 gap-8 mt-12 px-4 md:px-20'>
 

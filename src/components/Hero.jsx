@@ -7,8 +7,9 @@ const Hero = () => {
 
     const roles = [
         "Graphic Designer",
-        "Video Editor",
-        "Social Media Marketer"
+        "AI-Driven Creative Specialist",
+        "Social Media & Marketing Visuals Expert",
+        "Turning Ideas into Scroll-Stopping Content"
     ];
 
     const [currentRole, setCurrentRole] = useState(0);
@@ -36,7 +37,7 @@ const Hero = () => {
             <div className='flex flex-col justify-center text-center md:text-left'>
                 <h1 className ='font-serif font-semibold text-3xl md:text-4xl text-pink-950'>Welcome to my Creative Space</h1>
                 <p className = "py-4 font-semibold font-tomorrow text-5xl md:text-6xl lg:text-7xl text-black">I'm Jaya Kumar</p>
-                <p className = 'pt-4 font-medium font-tomorrow text-3xl md:text-4xl text-primary'>I'm a <span className = 'text-text_primary'>{roles[currentRole]}</span></p>
+                <p className = 'pt-4 font-medium font-tomorrow text-3xl md:text-4xl text-primary'><span className = 'text-text_primary'>{roles[currentRole]}</span></p>
                 <div className='mt-6 flex justify-center md:justify-start'>
                 <a href={Resume} 
                    rel = 'noopener noreferrer'

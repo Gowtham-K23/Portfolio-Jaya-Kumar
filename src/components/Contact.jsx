@@ -1,12 +1,11 @@
-import React from 'react'
-import {motion} from 'framer-motion';
-import WhatsappImg from '../assets/Media/whatsapp.png';
+import { motion } from 'framer-motion';
+import BehanceImg from '../assets/Media/behance.png';
+import FacebookImg from '../assets/Media/facebook.png';
 import MailImg from '../assets/Media/gmail.png';
 import InstagramImg from '../assets/Media/instagram.png';
-import TwitterImg from '../assets/Media/twitter.png';
-import FacebookImg from '../assets/Media/facebook.png';
 import LinkedinImg from '../assets/Media/linkedin.png';
-import BehanceImg from '../assets/Media/behance.png';
+import TwitterImg from '../assets/Media/twitter.png';
+import WhatsappImg from '../assets/Media/whatsapp.png';
 
 const Contact = () => {
   return (
