@@ -6,9 +6,9 @@ import Project4 from '../assets/Project images/image4.jpg';
 import Project5 from '../assets/Project images/image5.jpg';
 import Project6 from '../assets/Project images/image6.jpg';
 
-import Video1 from '../assets/videos/video1.mp4';
-import Video2 from '../assets/videos/video2.mp4';
-import Video3 from '../assets/videos/video3.mp4';
+import VideoA from '../assets/media1.mp4';
+import VideoB from '../assets/media2.mp4';
+import VideoC from '../assets/media3.mp4';
 
 import { motion } from 'framer-motion';
 
@@ -129,7 +129,7 @@ const Projects = () => {
             playsInline
             className='w-full h-72 object-cover rounded-2xl hover:scale-105 transition-transform duration-500'
           >
-            <source src={Video1} type='video/mp4' />
+            <source src={VideoA} type='video/mp4' />
           </video>
 
           <div className='flex justify-center mt-4'>
@@ -149,7 +149,7 @@ const Projects = () => {
             playsInline
             className='w-full h-72 object-cover rounded-2xl hover:scale-105 transition-transform duration-500'
           >
-            <source src={Video2} type='video/mp4' />
+            <source src={VideoB} type='video/mp4' />
           </video>
 
           <div className='flex justify-center mt-4'>
@@ -169,7 +169,7 @@ const Projects = () => {
             playsInline
             className='w-full h-72 object-cover rounded-2xl hover:scale-105 transition-transform duration-500'
           >
-            <source src={Video3} type='video/mp4' />
+            <source src={VideoC} type='video/mp4' />
           </video>
 
           <div className='flex justify-center mt-4'>
