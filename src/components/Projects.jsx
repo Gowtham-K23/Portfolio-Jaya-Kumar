@@ -6,7 +6,7 @@ import Project4 from '../assets/Project images/image4.jpg';
 import Project5 from '../assets/Project images/image5.jpg';
 import Project6 from '../assets/Project images/image6.jpg';
 
-import Video1 from '../assets/Videos/video1.mp4';
+import Video1 from '../assets/videos/video1.mp4';
 import Video2 from '../assets/videos/video2.mp4';
 import Video3 from '../assets/videos/video3.mp4';
 
