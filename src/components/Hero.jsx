@@ -8,7 +8,7 @@ const Hero = () => {
     const roles = [
         "Graphic Designer",
         "AI-Driven Creative Specialist",
-        "Social Media & Marketing Visuals Expert",
+        "Video Editor",
         "Turning Ideas into Scroll-Stopping Content"
     ];
 

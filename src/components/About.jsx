@@ -17,14 +17,14 @@ const About = () => {
         <img src = {Hero1Img} alt = "profile" type = "image/png" className = 'w-80 h-96 rounded-xl transform transition-transform duration-300 hover:scale-105' />
         </div>
         
-        <p className='text-center mt-6 px-4 md:px-20 text-xl font-bold font-montserrat text-black'>Design isn't just my skill, it's my language. With 2 years of experience shaping social media creatives, A4 layouts, and pamphlets, I now push the edge with AI-powered concept design — transforming ideas into scroll-stopping visuals. My work bridges classic design principles with futuristic innovation, crafting bold, attention-grabbing stories for brands ready to stand out.</p>
+        <p className='text-center mt-6 px-4 md:px-20 text-xl font-bold font-montserrat text-black'>Design isn’t just my skill — it’s my creative language. As a Graphic Designer and Video Editor with 3 years of experience, I craft engaging social media creatives, cinematic video edits, A4 layouts, posters, and brand visuals that capture attention and tell compelling stories. By blending strong design principles with modern AI-powered creativity, I create bold, impactful content that helps brands stand out in the digital world.</p>
         
         <div className='grid grid-cols:1 sm:grid-cols-3 lg:grid-cols-3 gap-8 mt-12 px-4 md:px-20'>
 
             <div className = 'flex flex-col items-center bg-pink-200 p-6 rounded-lg shadow-lg hover:shadow-2xl transform transition-all duration-300 hover:scale-105'>
                 <img src = {ExperienceImg} alt = "Experience" type = "image/png" className = 'w-16 h-16 mb-4'/>
                 <h3 className='text-2xl font-semibold font-serif mb-2'>Experience</h3>
-                <p className='text-center text-lg font-semibold text-black font-montserrat'>2+ years of experience in graphic design and video editing, creating engaging visuals and impactful content</p>
+                <p className='text-center text-lg font-semibold text-black font-montserrat'>3+ years of experience in graphic design and video editing, creating engaging visuals and impactful content</p>
             </div>
 
             <div className = 'flex flex-col items-center bg-pink-200 p-6 rounded-lg shadow-lg hover:shadow-2xl transform transition-all duration-300 hover:scale-105'>

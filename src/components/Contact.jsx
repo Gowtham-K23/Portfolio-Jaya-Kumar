@@ -63,7 +63,7 @@ const Contact = () => {
         <div className='text-center mt-32 px-4'>
             <p className='font-tomorrow text-pink-200 font-bold text-2xl'>Every great idea deserves outstanding execution. Let's collaborate to craft designs that inspire and deliver impact.</p>
             <p className='font-tomorrow text-pink-200 font-bold text-2xl'>Reach out to begin our creative journey!</p>
-            <p className='mt-20 font-noto text-background_primary font-bold text-lg'>Copyright © 2025 Jaya Kumar. All Rights Reserved.</p>
+            <p className='mt-20 font-noto text-background_primary font-bold text-lg'>Copyright © 2026 Jaya Kumar. All Rights Reserved.</p>
         </div>
     </motion.div>
   )
